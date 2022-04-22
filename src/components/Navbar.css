@@ -1,0 +1,40 @@
+
+.container{
+    background-color: rgb(28, 15, 49);
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+.myname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myname p{
+    display: inline;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+.navbar ul li{
+    display: inline;
+    color: white;
+}
+.navbar ul li a{
+    margin: 10px;
+    padding: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    color: #ff5823;
+    transition: color 0.5s ease;
+}

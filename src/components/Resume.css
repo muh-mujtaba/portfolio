@@ -1,0 +1,112 @@
+
+.Resume{
+    display: flex;
+    margin: 25px;
+    padding: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.res_heading{
+    margin: 3px;
+    padding: 3px;
+}
+.res_heading h1{
+    margin: 3px;
+    padding: 3px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.res_heading hr{
+    margin: 7px;
+}
+.res_heading p{
+    margin-left: 30px;
+}
+
+.res_card{
+    width: 70%;
+    display: flex;
+    box-shadow: 0 0 20px -1px #1f2235;
+    border-radius: 15px;
+}
+.res_left{
+    margin: 3px;
+    padding: 3px;
+    width: 50%;
+}
+
+.sidebar {
+    margin: 3px;
+    padding: 3px;
+    width: 200px;
+  }
+  .sidebar a.active {
+    background-color: rgb(29, 21, 43);
+    border-radius: 25px;
+    color: white;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: rgb(29, 21, 43);
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 35px;
+  }
+   
+ 
+  .sidebar a:hover{
+    background-color: rgb(29, 21, 43);
+    border-radius: 25px;
+    color: white;
+
+  }
+
+
+
+
+
+
+
+
+
+.res_right_data{
+    width: 50%;
+    margin: 12px;
+    padding: 12px;
+}
+.res_highlights{
+    display: flex;
+    flex-direction: column;
+}
+.res_inside{
+    display: inline;
+    margin: 2px;
+    padding: 4px;
+    margin-top: 32px;
+}
+.res_inside p{
+    
+    margin-left: 12px;
+    display: inline;
+    color: rgb(201, 60, 41);
+    font-weight: bold;
+}
+.dgree{
+    margin: 3px;
+    padding: 3px;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+.res_mark{
+    width: 12px;
+    height: 12px;
+    background-color: rgb(201, 60, 41);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+  
+  

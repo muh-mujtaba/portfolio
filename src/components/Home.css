@@ -1,0 +1,108 @@
+.home{
+    width: 100%;
+    background-color: rgb(28, 15, 49);
+    display: flex;
+    position: relative;
+    height: 540px;
+}
+.left{
+    width: 50%;
+    margin: 50px;
+    padding: 50px;
+}
+.intro p{
+    color: white;
+    font-size: 25px;
+    margin-left: 125px;
+}
+.intro p strong{
+    color: rgb(201, 60, 41);
+    font-size: larger;
+}
+.txt p{
+    margin-left: 55px;
+    margin-top: 7px;
+    color: white;
+}
+.wrapper {
+    height: 7vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+.typing-demo {
+    width: 20ch;
+    animation: text 3s steps(20)infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 25px;
+  }
+
+  /* -------------------- for animation ------------ */
+  @keyframes text {
+    0%{
+      width: 0
+    }
+    50%{
+        width: 20ch;
+      }
+  }
+
+
+  /* ----------------------------------------------- */
+  
+.btn{
+    margin-left: 140px;
+    margin-top: 25px;
+}
+.btn button{
+    padding: 12px;
+    margin: 5px;
+    margin-left: 15px;
+    border: 2px solid #f7f7f7;
+    border-radius: 25px;
+    font-size: 14px;
+    background-color: rgb(29, 21, 43);
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    border: 2px solid #ff5823;
+    transition: border 0.5s ease;
+}
+.right{
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+}
+.profile img{
+    width: 60%;
+    margin-left: 75px;
+}
+
+.profile img {
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(40%);
+  }
+  
+  /* The Transformation */
+  .profile:hover img {
+    filter: grayscale(0);
+    transform: scale(1.1);
+  }
+.shape{
+    height: 17.8%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 495px;
+}
+
+

@@ -1,0 +1,101 @@
+
+
+.Contact{
+    display: flex;
+    margin: 25px;
+    padding: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.con_heading{
+    margin: 3px;
+    padding: 3px;
+}
+.con_heading h1{
+    margin: 3px;
+    padding: 3px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.con_heading hr{
+    margin: 7px;
+}
+.con_heading p{
+    margin-left: 30px;
+}
+
+.con_card{
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    background-color: #1f2235;
+    box-shadow: 0 0 20px -1px #1f2235;
+    border-radius: 15px;
+}
+.con_left_photo{
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+    padding: 3px;
+    width: 40%;
+}
+.con_card_inside h3{
+    color: white;
+    margin: 3px;
+    padding: 3px;
+    font-size: 32px;
+}
+.con_card_inside p{
+    color: white;
+    margin: 3px;
+    padding: 3px;
+    font-size: 22px;
+    margin-top: 115px;
+}
+.con_card_inside img{
+    margin-top: 9px;
+    width: 130%;
+    box-shadow: 0 0 10px -2px #1f2235;
+    opacity: 60%;
+}
+.con_right_data{
+    width: 50%;
+    margin: 12px;
+    padding: 12px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+.input_tags{
+    margin: 12px;
+    padding: 12px;
+}
+.input_tags h3{
+    margin-left: 12px;
+}
+.input_tags input{
+    font-size: 18px;
+    border-radius: 20px;
+    margin: 3px;
+    padding: 7px;
+    background-color: rgb(223, 222, 222);
+    border: none;
+}
+.con_btn{
+    margin-left: 95px;
+}
+.con_btn button{
+    padding: 12px;
+    margin: 5px;
+    border: 2px solid #f7f7f7;
+    border-radius: 25px;
+    font-size: 12px;
+    background-color: rgb(29, 21, 43);
+    color: white;
+    cursor: pointer;
+    width: 125px;
+}
+button:hover{
+    border: 2px solid #ff5823;
+    transition: border 0.5s ease;
+}
